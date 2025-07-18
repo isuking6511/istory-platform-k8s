@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: istory-app-config
+data:
+  spring.datasource.url: 'cwave-rds.cl8e6kwi0tpw.ap-northeast-2.rds.amazonaws.com://:3306/istory'
+  
